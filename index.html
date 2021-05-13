@@ -1,0 +1,58 @@
+<html lang="en-GB">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Css\style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="gradient"></div>
+    <div id="page">
+        <div id="Message-Container">
+            <div id="message">
+                <h1>Congratulations!</h1>
+                <p>You are done.</p>
+                <p id="moves"></p>
+                <input id="okBtn" type="button" onclick="toggleVisablity('Message-Container')" value="Cool!" />
+            </div>
+        </div>
+        <div id="menu">
+            <div class="custom-select">
+                <select id="diffSelect">
+                    <option value="10">Easy</option>
+                    <option value="15">Medium</option>
+                    <option value="25">Hard</option>
+                    <option value="38">Extreme</option>
+                </select>
+            </div>
+           
+            <input id="startMazeBtn" type="button" onclick="makeMaze()" value="Start" />
+            <footer id="footer">
+                <a href="https://github.com/prashant404"><i class="fab fa-github fa-2x"></i></a>
+                <p>praSHAnt💗</p>
+            </footer>
+        
+        </div>
+        <div id="view">
+            <div id="mazeContainer">
+                <canvas id="mazeCanvas" class="border" height="500" width="1100%"></canvas>
+            </div>
+        </div>
+      
+    </div>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="game.js"></script>
+    <script src="
+    https://codepen.io/username/pen/aBcDef
+    "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"
+        integrity="sha512-YYiD5ZhmJ0GCdJvx6Xe6HzHqHvMpJEPomXwPbsgcpMFPW+mQEeVBU6l9n+2Y+naq+CLbujk91vHyN18q6/RSYw=="
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
